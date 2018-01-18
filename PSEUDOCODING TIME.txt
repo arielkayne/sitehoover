@@ -1,0 +1,50 @@
+PSEUDOCODING TIME
+
+Must use: 
+3. express - host site
+4. express-handlebars - format html
+5. mongoose - database
+6. body-parser - helps with json
+7. cheerio - helps with scraping
+8. request - calls
+
+
+Framework for frontend
+bootstrap for format
+	Header
+		Site Hoover
+		Home
+		Hoovered
+		Inhale!
+
+	Body
+		Jumbotron - Picture, Title, Source
+		List of most recent articles (display 10 divs)
+			Header (clickable)			"Save Article" Button
+				Brief summary of article
+
+	Footer
+		Copyright
+
+
+pick website to scrape?
+https://www.allsides.com/unbiased-balanced-news
+coindesk.com
+
+scrape headlines and links into database
+	Use mongoose to scrape
+
+
+Host the website
+	Push frontend, use express to route stuff
+		button to show current db
+			read database to display 10 recent database entries in HTML
+		button to scrape again
+		button for most commented articles
+
+
+
+Allow users to add comments to mongo db as a push item
+	- Keep record of popular articles in db
+	- potential feature: most saved article at top of list
+
